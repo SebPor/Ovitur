@@ -11,7 +11,9 @@
         android:id="@+id/logo_header"
         android:layout_width="123dp"
         android:layout_height="118dp"
+        android:layout_marginTop="?attr/actionBarSize"
         android:layout_margin="24dp"
+        android:src="@mipmap/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
     <TextView
@@ -20,11 +22,8 @@
         android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="24sp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="@+id/logo_header"
-        app:layout_constraintEnd_toEndOf="@+id/logo_header"
-        app:layout_constraintTop_toBottomOf="@+id/logo_header"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@+id/logo_header"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

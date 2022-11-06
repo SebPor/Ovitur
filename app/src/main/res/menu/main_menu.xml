@@ -2,15 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <group android:title="Tipos de Rutas">
+    <group>
         <item android:id="@+id/menu_naturales"
             android:orderInCategory="1"
-            android:title="Naturales"
+            android:title="@string/ruta_natural"
             app:showAsAction="never"/>
-
         <item android:id="@+id/menu_hechas_por_hombre"
             android:orderInCategory="2"
-            android:title="Hechas por el hombre"
+            android:title="Historicas"
             app:showAsAction="never"/>
     </group>
 
